@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg @mouseover="onSVGHovered" version="1.1" id="wifi" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 802 586" style="enable-background:new 0 0 802 586;" xml:space="preserve">
+<g>
+        <path ref="c3" class="circle-center circle" d="M464.3,513.8c0,35.6-28.8,64.3-64.3,64.3c-35.6,0-64.3-28.8-64.3-64.3c0-14.1,4.6-27.3,12.3-37.8
+            c11.6-16,30.6-26.5,52-26.5c22.5,0,42.2,11.5,53.7,29C460.4,488.6,464.3,500.7,464.3,513.8z"/>
+    </g>
+    <g>
+        <path ref="p3"  class="circle-small-path" d="M70,218.1C150.4,129.6,266.5,74,395.6,74c135.9,0,257.4,61.6,338,158.5"/>
+        <path ref="p1" class="circle-path top" d="M70,218.1C150.4,129.6,266.5,74,395.6,74c135.9,0,257.4,61.6,338,158.5"/>
+        <path ref="c2" id="c1" class="circle circle-bottom" d="M276,357.9c0,30.9-25,55.9-55.9,55.9c-30.9,0-55.9-25-55.9-55.9c0-12.2,4-23.7,10.7-32.9c10.1-13.9,26.6-23,45.2-23
+        c19.5,0,36.7,10,46.6,25.2C272.6,336,276,346.6,276,357.9z"/>
+        
+    </g>
+    <g>
+        
+        <path ref="p4" class="circle-small-path bottom" d="M222,354.3c43-46.9,104.9-76.2,173.5-76.2c73.3,0,138.8,33.4,182,85.9"/>
+        <path ref="p2" class="circle-path bottom" d="M222,354.3c43-46.9,104.9-76.2,173.5-76.2c73.3,0,138.8,33.4,182,85.9"/>
+
+        <path ref="c1" id="c2" class="circle circle-bottom" d="M124,217.9c0,30.9-25,55.9-55.9,55.9c-30.9,0-55.9-25-55.9-55.9c0-12.2,4-23.7,10.7-32.9
+            c10.1-13.9,26.6-23,45.2-23c19.5,0,36.7,10,46.6,25.2C120.6,196,124,206.6,124,217.9z"/>
+    </g>
+    <style lang="scss">
+
+.circle{
+    fill: black;
+}
+.circle-path{
+    stroke: black;
+    stroke-width: 112px;
+    stroke-linecap: round;
+    fill: none;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 790;
+    // stroke-dashoffset: 790;
+    stroke-dashoffset: 0;
+}
+.circle-small-path{
+    stroke: black;
+    stroke-width: 50px;
+    stroke-linecap: round;
+    fill: none;
+    stroke-miterlimit: 10;
+    stroke-dasharray: 790;
+    // stroke-dashoffset: 790;
+    stroke-dashoffset: 0;
+}
+@media only screen and (max-width: 600px) {
+    .navbar.dark svg#wifi {
+        width: 45px;
+    }
+}
+
+</style>
+        
+</svg>
+
+
